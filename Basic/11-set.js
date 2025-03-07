@@ -3,59 +3,39 @@ Clase 26 - Sets
 Vídeo: https://youtu.be/1glVfFxj8a4?t=9952
 */
 
-// Set
-
+// Set         AL SET NO SE LE PUEDEN AGREGAR ELEMENTOS DUPLICADOS
 // Declaración
-
 let mySet = new Set()
-
-console.log(mySet)
+//console.log(mySet)
 
 // Inicialización
+mySet = new Set(["Gera","Guzman","gerardovguzman",44,true,"soltero","padre"])
+//console.log(mySet)
 
-mySet = new Set(["Brais", "Moure", "mouredev", 37, true, "braismoure@mouredev.com"])
-
-console.log(mySet)
-
-// Métodos comunes
-
-// add y delete
-
+// MÉTODOS COMUNES
+// ADD Y DELETE
 mySet.add("https://moure.dev")
-
-console.log(mySet)
+//console.log(mySet)
 
 mySet.delete("https://moure.dev")
+//console.log(mySet)
 
-console.log(mySet)
+//console.log(mySet.delete(true))
 
-console.log(mySet.delete("Brais"))
-console.log(mySet.delete(4))
+// HAS
+//console.log(mySet.has(44))
+//console.log(mySet.has("lechuga"))
 
-console.log(mySet)
+// SIZE
+//console.log(mySet.size)
 
-// has
-
-console.log(mySet.has("Moure"))
-console.log(mySet.has("Brais"))
-
-// size
-
-console.log(mySet.size)
-
-// Convertir un set a array
+// CONVERTIR SET EN ARRAY
 let myArray = Array.from(mySet)
 console.log(myArray)
 
-// Convertir un array a set
-
+// CONVERTIR ARRAY EN SET
 mySet = new Set(myArray)
 console.log(mySet)
 
-// No admite duplicados
-
-mySet.add("braismoure@mouredev.com")
-mySet.add("braismoure@mouredev.com")
-mySet.add("braismoure@mouredev.com")
-mySet.add("BraisMoure@mouredev.com")
-console.log(mySet)
+mySet.add("gerardovguzman")
+console.log("gerardovguzman")
