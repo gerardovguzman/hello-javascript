@@ -7,7 +7,7 @@
 
         {
             "name": "Launch Program",
-            "program": "${workspaceFolder}/111-set.js",
+            "program": "${workspaceFolder}/112-map.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
@@ -23,7 +23,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/Basic/111-set.js"
+            "program": "${workspaceFolder}/Basic/112-map.js"
         }
     ]
 }
