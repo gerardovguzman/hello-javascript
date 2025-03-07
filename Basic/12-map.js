@@ -4,63 +4,50 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=10755
 */
 
 // Map
-
 // Declaración
-
 let myMap = new Map()
+//console.log(myMap)
 
-console.log(myMap)
-
-// Inicialiación
-
+// Inicialización
 myMap = new Map([
-    ["name", "Brais"],
-    ["email", "braismoure@mouredev.com"],
-    ["age", 37]
+    ["name","Gera"],
+    ["email","gerardovguzman1980@gmail.com"],
+    ["age",44]
+
 ])
 
-console.log(myMap)
+//console.log(myMap)
 
-// Métodos y propiedades
+// MÉTODOS Y PROPIEDADES
+// SET  PARA ACTUALIZAR UN ELEMENTO O PARA AGREGARLO
+myMap.set("alias","gerardovguzman")
+//console.log(myMap)
 
-// set
+myMap.set("name","Gerardo")
+//console.log(myMap)
 
-myMap.set("alias", "mouredev")
-myMap.set("name", "Brais Moure")
+// GET 
+//console.log(myMap.get("name"))
 
-console.log(myMap)
+// HAS PARA SABER SI LA CLAVE EXISTE O NO
+//console.log(myMap.has("edad"))
+//console.log(myMap.has("name"))
 
-// get
-
-console.log(myMap.get("name"))
-console.log(myMap.get("surname"))
-
-// has
-
-console.log(myMap.has("surname"))
-console.log(myMap.has("age"))
-
-// delete
-
+// DELETE
 myMap.delete("email")
-
 console.log(myMap)
 
-// keys, values y entries
-
+// KEYS  VALUES Y ENTRIES
 console.log(myMap.keys())
 console.log(myMap.values())
 console.log(myMap.entries())
 
+
+// CLEAR
+//myMap.clear()
+//console.log(myMap)
+
+
 // size
-
 console.log(myMap.size)
-
-// clear
-
-myMap.clear()
-
-console.log(myMap)
-
-
 
