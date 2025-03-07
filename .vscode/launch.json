@@ -7,7 +7,7 @@
 
         {
             "name": "Launch Program",
-            "program": "${workspaceFolder}/100-array.js",
+            "program": "${workspaceFolder}/111-set.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
@@ -23,7 +23,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/Basic/100-array.js"
+            "program": "${workspaceFolder}/Basic/111-set.js"
         }
     ]
 }
